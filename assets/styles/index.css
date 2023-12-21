@@ -3,7 +3,18 @@ html, body {
     padding: 0;
     margin: 0;
 }
-
+h1, h2{
+    padding: 0;
+}
+h1{
+   font-size: 20px;
+   text-decoration: underline; 
+   padding: 0;
+   margin: 0;
+}
+h2{
+    font-size: 18px;
+}
 header{
     border-bottom: 1px solid #ddd;
     padding:20px;
@@ -12,8 +23,13 @@ header{
 nav a{
     margin: 0 10px;
 }
-.main{
-    max-width: 1250px;
-    margin: 0 auto;
-    padding: 20px;
+
+.nav, .main, .footer{
+    max-width: 1275px;
+    margin: 0 auto; 
+}
+
+.main, .footer{
+    padding: 0 20px; 
+    max-width: 1200px;
 }
