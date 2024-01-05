@@ -51,6 +51,7 @@ nav a{
     gap: 15px;
     /* grid-auto-rows:200px; */
 }
+
 .grid-cell {
     height: 200px;
     background-color: var(--color-1);
