@@ -14,7 +14,6 @@ h1, h2{
 }
 h1{
    font-size: 20px;
-   text-decoration: underline; 
    padding: 0;
    margin: 0;
 }
@@ -58,4 +57,24 @@ nav a{
     border-radius: 10px;
     padding: 20px;
     border: 1px solid var(--border-color);
+}
+
+.flex{
+    display: flex;
+    gap: 15px;
+}
+
+.flex-item{
+    flex: 1;
+}
+
+.grid-cell, .flex-item{
+    height: 200px;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+}
+.flex-item:first-child{
+    order: 3;
 }
