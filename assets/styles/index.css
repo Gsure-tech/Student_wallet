@@ -78,6 +78,24 @@ nav a{
 .flex-item:first-child{
     order: 3;
 }
+.animate{
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+/* Keyframe */
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
 
 /* Styling on mobile devices */
 @media (max-width: 768px){
