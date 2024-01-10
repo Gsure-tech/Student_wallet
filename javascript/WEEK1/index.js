@@ -8,3 +8,5 @@ button.addEventListener('click', showMyName);
 function showMyName(){
     alert('My name is AbdulGaniyu');
 }
+let message = "Hello my friends\n My name is Johnson\n I am a software engineer"
+console.log(message.toUpperCase())
