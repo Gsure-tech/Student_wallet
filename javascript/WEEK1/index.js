@@ -10,3 +10,19 @@ function showMyName(){
 }
 let message = "Hello my friends\n My name is Johnson\n I am a software engineer"
 console.log(message.toUpperCase())
+
+let user2 ={
+    name: "John Doe",
+    age :20,
+    weight:20.3,
+    "verifiedUser" : true
+}
+
+let user ={
+    name: "John Doe",
+    age: 20,
+    weight:20.3,
+    verifiedUser: true
+}
+
+console.log(user)
