@@ -26,3 +26,4 @@ let user ={
 }
 
 console.log(user)
+console.log(message.startsWith("Helo"))
