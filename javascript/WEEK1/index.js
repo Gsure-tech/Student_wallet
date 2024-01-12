@@ -31,4 +31,5 @@ let fullName = `Mr ${firstName} ${lastName}`
 alert(fullName)
 
 console.log(user)
-console.log(message.startsWith("Helo"))
+console.log(message.startsWith("Hello"))
+console.log(user2.verifiedUser);
