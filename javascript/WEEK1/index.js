@@ -15,7 +15,7 @@ let user2 ={
     name: "John Doe",
     age :20,
     weight:20.3,
-    "verifiedUser" : true
+    "verifiedUser" : false
 }
 
 let user ={
