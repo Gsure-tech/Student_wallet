@@ -15,7 +15,7 @@ let user2 ={
     name: "John Doe",
     age :20,
     weight:20.3,
-    "verifiedUser" : true
+    "verifiedUser" : false
 }
 
 let user ={
@@ -24,6 +24,11 @@ let user ={
     weight:20.3,
     verifiedUser: true
 }
+let firstName = `Sani`
+let lastName = `Bello`
+let fullName = `Mr ${firstName} ${lastName}`
+
+alert(fullName)
 
 console.log(user)
 console.log(message.startsWith("Helo"))
