@@ -33,3 +33,4 @@ alert(fullName)
 console.log(user)
 console.log(message.startsWith("Hello"))
 console.log(user2.verifiedUser);
+console.log(user.weight);
