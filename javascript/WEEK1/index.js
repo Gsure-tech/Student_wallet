@@ -41,3 +41,8 @@ console.log(ass)
 console.log(++ass)
 console.log(10<3)
 console.log(3<10)
+console.log(2 == 1)
+
+ let  day = "monday"
+
+ if(day == "monday") alert("Today is Monday")
