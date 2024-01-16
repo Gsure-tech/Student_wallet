@@ -37,5 +37,7 @@ console.log(user.weight);
 
 let assignmen = 20;
 let ass = assignmen++
-alert(ass)
-alert(++ass)
+console.log(ass)
+console.log(++ass)
+console.log(10<3)
+console.log(3<10)
