@@ -32,7 +32,12 @@ nav a {
   text-decoration: none;
 }
 
-.nav,
+.nav {
+  background-color: chocolate;
+  display: flex;
+  justify-content: space-evenly;
+
+}
 .main,
 .footer {
   max-width: 1275px;
