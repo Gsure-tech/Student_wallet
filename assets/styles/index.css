@@ -35,8 +35,9 @@ nav a {
 .nav {
   background-color: chocolate;
   display: flex;
-  justify-content: space-evenly;
-
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
 }
 .main,
 .footer {
