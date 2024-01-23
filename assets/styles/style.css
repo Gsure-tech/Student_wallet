@@ -1,8 +1,10 @@
 nav a {
   text-decoration: none;
+   color: white;
 }
 
 .nav {
+   
  background-color: rgb(233, 147, 61);
   display: flex;
   justify-content: space-between;
