@@ -3,14 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/style1.css">
     <title>HTML FORMS</title>
+    <style>
+        /* .firstname{
+            width: 200px;
+            color: black;
+        }
+        label{
+            font-size: 40px;
+            color: purple;
+        }
+         
+        input{
+            color: blue;
+        }
+
+        select{
+            color: blue;
+        }
+        h1{
+            color: tomato;
+            text-decoration: underline;
+            text-align: center;
+        }
+        h1 > span{
+            font-size: 100px;
+            color: green;
+        } */
+    </style>
 </head>
 <body>
+    <div>
+    <h1><span>R</span>egistration Form</h1>
     <!-- Firstname, Lastname, email, username, password, DOB, country, address, gender, hobby -->
     <form action="">
         <div>
             <label for="">First Name</label>
-            <input type="text" name="firstName" placeholder="Enter your first name" required autocomplete="on">
+            <input class="firstname" type="text" name="firstName" placeholder="Enter your first name" required autocomplete="on">
         </div>
         <div>
             <label for="">Last Name</label>
@@ -85,6 +115,7 @@
         <div>
             <input type="submit" value="Submit">
         </div>
+    </div>
     </form>
 </body>
 </html>
