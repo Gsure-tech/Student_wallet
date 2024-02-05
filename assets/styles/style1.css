@@ -50,6 +50,9 @@ a:hover{
     color: red;
 }
 
-a:visited{
+/* a:visited{
     color:rgb(118, 102, 116);
+} */
+span:hover{
+    color: red;
 }
