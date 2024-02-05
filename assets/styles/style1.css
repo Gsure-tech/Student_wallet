@@ -1,5 +1,15 @@
 *{
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    margin: 0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .firstname{
     width: 200px;
@@ -14,6 +24,10 @@ input{
     color: blue;
 }
 
+input[type="text"]{
+    color: red;
+}
+
 select{
     color: blue;
 }
@@ -25,4 +39,17 @@ h1{
 h1 > span{
     font-size: 100px;
     color: green;
+}
+/* link style */
+a{
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color:rgb(118, 102, 116);
 }
