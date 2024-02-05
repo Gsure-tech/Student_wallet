@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles/style1.css">
     <title>HTML FORMS</title>
     <style>
@@ -33,89 +33,100 @@
         } */
     </style>
 </head>
+
 <body>
     <div>
-    <h1><span>R</span>egistration Form</h1>
-    <!-- Firstname, Lastname, email, username, password, DOB, country, address, gender, hobby -->
-    <form action="">
-        <div>
-            <label for="">First Name</label>
-            <input class="firstname" type="text" name="firstName" placeholder="Enter your first name" required autocomplete="on">
-        </div>
-        <div>
-            <label for="">Last Name</label>
-            <input type="text" name="lastName" placeholder="Enter your last name" required autocomplete="on">
-        </div>
-        <div>
-            <label for="">Email</label>
-            <input type="email" name="email" placeholder="Enter your Email " required autocomplete="on">
-        </div>
-        <div>
-            <label for="">Username</label>
-            <input type="text" name="Username" placeholder="Enter your Username" required autocomplete="on">
-        </div>
-        <div>
-            <label for="">Password</label>
-            <input type="password" name="password" placeholder="Enter your Password" required autocomplete="on">
-        </div>
-        <div>
-            <label for="">DOB</label>
-            <input type="date" name="firstName" placeholder="Enter your Password" required autocomplete="on">
-        </div>
-        <div>
-            <label for="">Gender</label>
+        <!-- Example on pseudo-classes -->
+        <p>Education is the best legacy, below are the links to all our previous classes</p>
+       <ul>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JAVASCRIPT</a></li>
+        <li><a href="#">LARAVEL</a></li>
+       </ul>
 
-            <label for="Male">Male</label>
-            <input type="radio" name="gender" value="Male" required>
+        <h1><span>R</span>egistration Form</h1>
+        <!-- Firstname, Lastname, email, username, password, DOB, country, address, gender, hobby -->
+        <form action="">
+            <div>
+                <label for="">First Name</label>
+                <input type="text" name="firstName" placeholder="Enter your first name" required autocomplete="on">
+            </div>
+            <div>
+                <label for="">Last Name</label>
+                <input type="text" name="lastName" placeholder="Enter your last name" required autocomplete="on">
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="email" name="email" placeholder="Enter your Email " required autocomplete="on">
+            </div>
+            <div>
+                <label for="">Username</label>
+                <input type="text" name="Username" placeholder="Enter your Username" required autocomplete="on">
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="password" name="password" placeholder="Enter your Password" required autocomplete="on">
+            </div>
+            <div>
+                <label for="">DOB</label>
+                <input type="date" name="firstName" placeholder="Enter your Password" required autocomplete="on">
+            </div>
+            <div>
+                <label for="">Gender</label>
 
-            <label for="Female">Female</label>
-            <input type="radio" name="gender" value="Female" required>
-        </div>
-        <div>
-            <label for="">Country</label>
-        <select name="country" >
-            <option value="Nigeria">Nigeria</option>
-            <option value="USA">USA</option>
-            <option value="Ghana">Ghana</option>
-            <option value="Uganda">Uganda</option>
-            <option value="South Africa">South Africa</option>
-            <option value="Niger "> Niger</option>
-        </select>
-        </div>
-        <div>
-            <label for="">Address</label>
-            <input type="text" name="address" placeholder="Enter your Address" required autocomplete="on">
-        </div>
-        <div>
-            <label for="">Clear description of the address</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </div>
-        <div>
-            <label for="">Hobby</label>
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" value="Male" required>
 
-            <label for="">Reading</label>
-            <input type="checkbox" name="hobby" value="reading">
+                <label for="Female">Female</label>
+                <input type="radio" name="gender" value="Female" required>
+            </div>
+            <div>
+                <label for="">Country</label>
+                <select name="country">
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="USA">USA</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Niger "> Niger</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Address</label>
+                <input type="text" name="address" placeholder="Enter your Address" required autocomplete="on">
+            </div>
+            <div>
+                <label for="">Clear description of the address</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="">Hobby</label>
 
-            <label for="">Coding</label>
-            <input type="checkbox" name="codin9" value="coding">
+                <label for="">Reading</label>
+                <input type="checkbox" name="hobby" value="reading">
 
-            <label for="">Praying</label>
-            <input type="checkbox" name="praying" value="praying">
-            
-        </div>
+                <label for="">Coding</label>
+                <input type="checkbox" name="codin9" value="coding">
 
-        <div>
-            <label for="">Image</label>
-            <input type="file" required>
-            <span>Min of 500px by 500px</span>
-        </div>
-        <!-- How to download an item -->
-        <a href="/assets/images/house.jpg" download>Click here to download Image</a>
+                <label for="">Praying</label>
+                <input type="checkbox" name="praying" value="praying">
 
-        <div>
-            <input type="submit" value="Submit">
-        </div>
+            </div>
+
+            <div>
+                <label for="">Image</label>
+                <input type="file" required>
+                <span>Min of 500px by 500px</span>
+            </div>
+            <!-- How to download an item -->
+            <a href="/assets/images/house.jpg" download>Click here to download Image</a>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div>
     </div>
     </form>
 </body>
+
 </html>
