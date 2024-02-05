@@ -1,0 +1,28 @@
+*{
+    
+}
+.firstname{
+    width: 200px;
+    color: black;
+}
+label{
+    font-size: 40px;
+    color: purple;
+}
+ 
+input{
+    color: blue;
+}
+
+select{
+    color: blue;
+}
+h1{
+    color: tomato;
+    text-decoration: underline;
+    text-align: center;
+}
+h1 > span{
+    font-size: 100px;
+    color: green;
+}
