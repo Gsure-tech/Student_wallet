@@ -2,6 +2,9 @@ table{
     border: 1px solid red;
     margin: 0 auto;
 }
+body{
+    background: url(../images/house.jpg no-repeat);
+}
 tr:first-child{
     color: red;
 }
@@ -29,17 +32,48 @@ tr:nth-child(even){
 .image{
     /* width: 100px;
     height: 1000px; */
-    border-radius: 80%;
-    overflow: hidden;
+    border-radius: 0%;
+    overflow: auto;
 }
 
 
 .form{
-    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    /* position: absolute; */
     /* top: 0px;
     left: 0px;
     transform: translate(-50%, -50%); */
 }
+
+.form .name input{
+display: flex;
+justify-content: space-between;
+width: 50%;
+height: 50px;
+padding: 2px;
+margin:10px 0;
+text-align: center;
+border-radius: 30px;
+box-shadow: inset 1px 1px rgba(0, 0, 0, 0,3);
+}
+
+.form .name span{
+    color: white;
+    padding: 20px 10px;
+    font-size: 25px;
+}
+#submit{
+    width: 200px;
+    padding: 20px 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 0;
+    background: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
 /* margin: 20px 30px 2px 13px
 20px = margin-top
 30px = margin-right
