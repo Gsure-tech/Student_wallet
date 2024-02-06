@@ -63,12 +63,12 @@ input{
 }
 
 ::placeholder{
-    color: #dcdbe5;
+    color: #6e5eff;
     font-weight: 400;
 }
 
 ::-webkit-input-placeholder{
-    color: #dcdbe5;
+    color: #a1a0a5;
     font-weight: 400;
 }
 
