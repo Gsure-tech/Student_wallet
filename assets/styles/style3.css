@@ -27,9 +27,19 @@ tr:nth-child(even){
 
 }
 .image{
-    
+    /* width: 100px;
+    height: 1000px; */
+    border-radius: 80%;
+    overflow: hidden;
 }
 
+
+.form{
+    position: absolute;
+    /* top: 0px;
+    left: 0px;
+    transform: translate(-50%, -50%); */
+}
 /* margin: 20px 30px 2px 13px
 20px = margin-top
 30px = margin-right
