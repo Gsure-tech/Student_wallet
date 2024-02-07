@@ -43,7 +43,7 @@ body {
 
 form {
   background: #fff;
-  box-shadow: 0px 8px 0 rgba(0, 0, 0, 0.1234);
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1234);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -54,3 +54,44 @@ form {
     display: flex;
     flex-direction: column;
 }
+
+input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    line-height: 35px;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    font-weight: 600;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+}
+
+::placeholder{
+    color: gray;
+    font-weight: 400;
+}
+
+::-webkit-input-placeholder{
+    color: wheat;
+    font-weight: 800;
+}
+
+input[type="submit"]{
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid gray; */
+    background: #33cc8b;
+    color: #fff;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:786px){
+    .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.row{
+    width: 95%
+}
+     };
+    
