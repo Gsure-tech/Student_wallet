@@ -10,13 +10,20 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: seagreen;
+    background:  url(../../uniccon/asset/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center ;
+
 }
 
 .wrapper{
     width: 420px;
-    background: purple;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
     color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
 }
 
 .wrapper h1{
@@ -91,7 +98,7 @@ text-decoration: underline;
 .register-link{
     font-size: 14.5px;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0 15px;
 }
 
 .register-link a{
