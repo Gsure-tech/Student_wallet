@@ -1,0 +1,60 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling: Set font-family, background color, and center content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styling: Set background color, padding, border radius, shadow, and width */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Heading styling: Center align text and add bottom margin */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table styling: Make table full width and collapse borders */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table cell styling: Add padding and bottom border */
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Header cell styling: Set background color and make text bold */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Alternating row background colors: Set background color for even rows */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect for table rows: Change background color on hover */
+tbody tr:hover {
+    background-color: #ddd;
+}

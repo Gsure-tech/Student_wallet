@@ -1,0 +1,141 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; /* Set font-family for the entire document */
+  }
+  
+  body {
+      /* Center content vertically and horizontally */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh; /* Ensure full viewport height */
+      background: transparent; /* Fallback background */
+      background: url(../uniccon/asset/background2.jpg) no-repeat; /* Background image */
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .container {
+      /* Styling for the main content container */
+      padding: 30px 40px; /* Padding around the content */
+      border: 2px solid rgba(255, 255, 255, 0.2); /* Border with transparency */
+      backdrop-filter: blur(20px); /* Apply blur effect */
+      color: #fff; /* Text color */
+      background: transparent; /* Transparent background */
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px; /* Rounded corners */
+  }
+  
+  .container > h2 {
+      /* Styling for heading inside container */
+      font-size: 36px;
+      text-align: center;
+  }
+  
+  form {
+      margin-top: 10px; /* Margin above form */
+  }
+  
+  .form-group > input {
+      /* Styling for input fields */
+      margin: 10px 0;
+      color: #fff; /* Text color */
+      padding: 10px 20px;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      background: transparent;
+      border-radius: 10px;
+      border: 2px solid rgba(255, 255, 255, .2);
+  }
+  
+  .gender {
+      /* Styling for gender input */
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 2px solid rgba(255, 255, 255, .2);
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0 10px;
+  }
+  
+  .country {
+      /* Styling for country select */
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .country select {
+      /* Styling for select element */
+      margin: 5px 0 12px;
+      background: rgba(0, 0, 0, 0.3);
+      color: #ffffff;
+      width: 100%;
+      height: 100%;
+      padding: 7px 20px;
+      border-radius: 10px;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+      border: 2px solid rgba(255, 255, 255, 0.35);
+  }
+  
+  .form-group input::placeholder {
+      /* Styling for input placeholder text */
+      color: #fff;
+  }
+  
+  label {
+      /* Styling for labels */
+      width: 100%;
+  }
+  
+  .btn input[type="submit"] {
+      /* Styling for submit button */
+      width: 100%;
+      height: 100%;
+      font-size: 16px;
+      padding: 10px 20px;
+      background: white;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+      cursor: pointer;
+      color: #333;
+      transition: all .3s ease;
+  }
+  
+  .btn input:hover {
+      /* Hover effect for submit button */
+      background: rgb(110, 60, 2);
+      color: #fff;
+  }
+  
+  .register-link {
+      /* Styling for registration link */
+      font-size: 14.5px;
+      text-align: center;
+      margin: 20px 0 15px;
+  }
+  
+  .register-link a {
+      /* Styling for link inside registration section */
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+  }
+  
+  .register-link p a:hover {
+      /* Hover effect for links */
+      text-decoration: underline;
+  }
+  
+  .form-hobby {
+      /* Styling for hobby section */
+      margin: 25px 0 15px;
+      display: flex;
+      justify-content: space-around;
+  }
+  

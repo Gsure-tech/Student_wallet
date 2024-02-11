@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="">Firstname</label>
+                <input type="text" placeholder="Enter Fullname" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="">email</label>
+                <input type="text" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="text" placeholder="Enter your password" required>
+            </div>
+
+            <div class="gender">
+                <div>
+                    <label for="">Gender</label>
+                </div>
+                <div>
+                <label for="">Male</label>
+                <input type="radio" name="gender" value="male" id="">
+                <label for="">Female</label>
+                <input type="radio" name="gender" value="female" id="">
+                </div>
+                
+            </div>
+            <div class="form-group">
+                <label for="">Date of Birth</label>
+                <input type="date" placeholder="Enter your date of birth" required>
+            </div>
+            <div class="form-group">
+                <label for="">Phone Number</label>
+                <input type="text" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="">Address</label>
+                <input type="text" placeholder="Enter your address" required>
+            </div>
+            <div class="country">
+                <div>
+                    <label for="">Country</label>
+                </div>
+                <div>
+                    <select>
+                        <option value="country">Select Country</option>
+                        <option value="country">Nigeria</option>
+                        <option value="country">USA</option>
+                        <option value="country">South Africa</option>
+                        <option value="country">UAE</option>
+                        <option value="country">Qatar</option>
+                    </select>
+                </div>
+                
+            </div>
+            
+            <div class="form-hobby">
+                <label for="">Hobby</label>
+                <input type="checkbox" name="Hobby" id="" value="skating">
+                <label for="">Skating</label>
+                <input type="checkbox" name="Hobby" id="" value="reading">
+                <label for="">Reading</label>
+                <input type="checkbox" name="Hobby" id="" value="skating">
+                <label for="">Travelling</label>
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Submit" required>
+            </div>
+
+            <div class="register-link">
+                <p>Already have an account? <a href="login.html ">Login</a></p>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
