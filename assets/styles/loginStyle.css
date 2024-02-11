@@ -94,12 +94,18 @@ text-decoration: underline;
     color: #333;
     font-weight: 600;
 }
+.btn:hover{
+    background: rgb(110, 60, 2); 
+    color: #fff; 
+    
+}
 
 .register-link{
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
 }
+
 
 .register-link a{
     color: #fff;
