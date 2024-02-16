@@ -19,7 +19,7 @@ body{
     max-height: 100%;
     /* font-family: 'Montserrat', sans-serif; */
 }
-
+/* This aligns the form container background to the middle of the page */
 .form-container{
 
     left: 50%;
