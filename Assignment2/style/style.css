@@ -1,0 +1,16 @@
+nav{
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px ;
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav :nth-child(2){
+    margin: 0 20px;
+}
