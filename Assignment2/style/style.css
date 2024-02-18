@@ -1,20 +1,31 @@
-nav{
-    background: gray;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 40px ;
-    
+nav {
+  height: 80px;
+  background: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px 40px; */
 }
 
-nav a{
-    color: white;
-    text-decoration: none;
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav :nth-child(1) {
+  margin-left: 60px;
 }
 
-nav :nth-child(2){
-    margin: 0 20px;
+.right-nav {
+  margin-right: 60px;
 }
 
-.adventure{
-    background: url(../images/adventureImage.jpg);
+.right-nav a {
+  margin: 0 10px;
+}
+.adventure {
+  /* width: 1440px; */
+  height: 600px;
+  top: 80px;
+
+  background: url(../images/adventureImage.jpg);
 }
