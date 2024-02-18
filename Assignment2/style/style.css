@@ -1,9 +1,8 @@
-
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 nav {
   height: 80px;
-  background: #E5E5E5;
+  background: #e5e5e5;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,13 +10,19 @@ nav {
 }
 
 nav a {
-  color: #F8F9FA;
+  color: #f8f9fa;
   text-decoration: none;
 }
 nav :nth-child(1) {
   margin-left: 60px;
 }
-
+.left-nav a {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  line-height: 22.4px;
+  font-size: 20px;
+}
 .right-nav {
   margin-right: 60px;
 }
@@ -25,18 +30,29 @@ nav :nth-child(1) {
 .right-nav a {
   margin: 0 10px;
 }
-.right-nav a i{
-    padding: 0px;
-    margin: 0px;
-    font-size: 20px;
+.right-nav a i {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
 }
-.bx bxl-facebook-circle{
-    width: 50px;
+.bx bxl-facebook-circle {
+  width: 50px;
 }
 .adventure {
   /* width: 1440px; */
   height: 600px;
   top: 80px;
 
-  background: url(../images/adventureImage.jpg);
+  background: url(../images/adventureImage.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.adventure h1 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46.08px;
+  color: #ffffff;
 }
