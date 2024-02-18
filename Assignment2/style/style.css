@@ -22,6 +22,10 @@ nav :nth-child(1) {
 .right-nav a {
   margin: 0 10px;
 }
+.right-nav a i{
+    padding: 0px;
+    margin: 0px;
+}
 .adventure {
   /* width: 1440px; */
   height: 600px;
