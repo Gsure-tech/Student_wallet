@@ -9,6 +9,7 @@
 
 nav {
   position: relative;
+  /* width: 1400px; */
   height: 80px;
   background: #e5e5e5;
   display: flex;
@@ -205,19 +206,48 @@ nav a {
 }
 
 .image-side {
+  
   margin-top: 60px;
+  margin-left: 70px;
+  margin-right: 70px;
   display: flex;
+  justify-content: space-between;
 }
 
 .img-box {
-  margin: 0 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img-box div{
+    margin-left: 10px;
+}
+.img-box p{
+    /* width: 310px; */
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: "Lora", serif;
+    font-style: normal;
+    color: #6C757D;
+}
+
+.img-box h3{
+    margin-left: 10px;
+    width: 273px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Lora", serif;
+    font-style: normal;
+    line-height: 25px;
+    color: #495057;
 }
 
 .adventure-image {
     background: url(../images/adven.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    width: 310px;
+    width: 380;
     height: 280px;
     border-radius: 5px;
   }
@@ -227,7 +257,7 @@ nav a {
   background: url(../images/Travel.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  width: 310px;
+  width: 380;
   height: 280px;
   border-radius: 5px;
 }
@@ -236,7 +266,7 @@ nav a {
     background: url(../images/Technology.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    width: 310px;
+    width: 380;
     height: 280px;
     border-radius: 5px;
 }
@@ -245,7 +275,7 @@ nav a {
     background: url(../images/fashion.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    width: 310px;
+    width: 380;
     height: 280px;
     border-radius: 5px;
 }
@@ -254,7 +284,7 @@ nav a {
     background: url(../images/adven2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    width: 310px;
+    width: 380;
     height: 280px;
     border-radius: 5px;
   }
@@ -264,7 +294,7 @@ nav a {
   background: url(../images/fashion2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  width: 310px;
+  width: 380;
   height: 280px;
   border-radius: 5px;
 }
@@ -273,7 +303,7 @@ nav a {
     background: url(../images/Techonlogy2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    width: 310px;
+    width: 380;
     height: 280px;
     border-radius: 5px;
 }
@@ -282,20 +312,21 @@ nav a {
     background: url(../images/fashion22.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    width: 310px;
+    width: 380;
     height: 280px;
     border-radius: 5px;
 }
-.img-box button {
+.img-box .btn {
     background: #83808083;
     color: #ffffff;
     border: none;
     outline: none;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 10px;
     height: 22px;
     width: 100px;
     border-radius: 8px;
+    text-align: center;
     padding: 6px 10px;
     gap: 10px;
     font-weight: 700;
