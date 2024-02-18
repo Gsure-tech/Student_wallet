@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,200..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@0,200..700;1,400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
@@ -8,6 +8,8 @@
 }
 
 nav {
+  position: relative;
+  /* width: 1400px; */
   height: 80px;
   background: #e5e5e5;
   display: flex;
@@ -20,6 +22,26 @@ nav a {
   color: #f8f9fa;
   text-decoration: none;
 }
+
+/* .right-nav .nav-link::after{
+    content: ""; 
+    position: absolute; 
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background: #D4A373; 
+    border-radius: 5px;
+    transform-origin: right; 
+    transform: scaleX(0); 
+    transition: transform 0.5s; 
+}
+
+.right-nav .nav-link:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+  } */
+
 .left-nav a {
   margin-left: 70px;
   font-family: "League Spartan", sans-serif;
@@ -81,6 +103,7 @@ nav a {
   line-height: 46.08px;
   color: #ffffff;
   margin-top: 8px;
+  font-style: normal;
 }
 .adventure-date {
   width: 500px;
@@ -118,16 +141,342 @@ nav a {
 }
 .circle {
   display: flex;
-  
 }
 .all-cirles {
-    height: 8px;
-    width: 8px;
-    background-color: #bbbbbb61;
-    border-radius: 50%;
-    display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: #bbbbbb61;
+  border-radius: 50%;
+  display: inline-block;
 }
-.all-cirles:first-child{
+.all-cirles:first-child {
+  margin-left: 70px;
+  background-color: #ffffff;
+}
+
+.popular-topics {
+  display: flex;
+  flex-direction: column;
+}
+.pop-text {
+  margin-left: 70px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  color: #495057;
+  margin-top: 60px;
+}
+
+.view-all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-all a {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 25px;
+  color: #495057;
+  text-decoration: none;
+}
+.view-all-left {
+  /* width: 3px; */
+  height: 25px;
+  top: 822px;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.view-all-right {
+  width: 47;
+  height: 25px;
+  top: 822px;
+  margin-right: 70px;
+}
+
+.view-all-left a {
+  margin-right: 20px;
+}
+#active {
+  color: #d4a373;
+}
+
+.image-side {
+  margin-top: 60px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img-box div {
+  margin-left: 10px;
+}
+.img-box p {
+  /* width: 310px; */
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: "Lora", serif;
+  font-style: normal;
+  color: #6c757d;
+}
+
+.img-box h3 {
+  margin-left: 10px;
+  width: 273px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Lora", serif;
+  font-style: normal;
+  line-height: 25px;
+  color: #495057;
+}
+
+.adventure-image {
+  background: url(../images/adven.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 380;
+  height: 280px;
+  border-radius: 5px;
+}
+
+.travel-image {
+  background: url(../images/Travel.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 380;
+  height: 280px;
+  border-radius: 5px;
+}
+
+.technolgy-image {
+  background: url(../images/Technology.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 380;
+  height: 280px;
+  border-radius: 5px;
+}
+
+.fashion-image {
+  background: url(../images/fashion.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 380;
+  height: 280px;
+  border-radius: 5px;
+}
+
+.adventure-image2 {
+  background: url(../images/adven2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 380;
+  height: 280px;
+  border-radius: 5px;
+}
+
+.travel-image2 {
+  background: url(../images/fashion2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 380;
+  height: 280px;
+  border-radius: 5px;
+}
+
+.technolgy-image2 {
+  background: url(../images/Techonlogy2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 380;
+  height: 280px;
+  border-radius: 5px;
+}
+
+.fashion-image22 {
+  background: url(../images/fashion22.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 380;
+  height: 280px;
+  border-radius: 5px;
+}
+.img-box .btn {
+  background: #83808083;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-left: 300px;
+  margin-top: 10px;
+  height: 22px;
+  width: 100px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 6px 10px;
+  gap: 10px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  line-height: 11.72px;
+}
+
+.rich-dad {
+  background: url(../images/richard.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.5;
+}
+.richard {
+  backdrop-filter: blur(4px);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin-top: 80px;
+}
+
+.richard-line {
+  height: 1px;
+  width: 30px;
+  border: 0;
+
+  background-color: #e5e5e5;
+  align-items: center;
+  background-color: E5E5E5;
+  margin-top: 10px;
+}
+.richard h1 {
+  width: 530px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 25px;
+  color: #fff;
+}
+.richard p {
+  margin-top: 15px;
+  width: 420px;
+  height: 40px;
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #e5e5e5;
+}
+
+.richard div {
+  background: #83808083;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  height: 22px;
+  width: 62px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  line-height: 11.72px;
+}
+
+.editor{
+    display: flex;
+    flex-direction: column;
     margin-left: 70px;
-    background-color: #ffffff;
+    margin-right: 70px;
+    
 }
+
+.editor h1{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.fashion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fashion1{
+    background: url(../images/fashionMount.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+    width: 420px;
+    height: 350px;
+    border-radius: 5px;
+
+}
+.fashion2{
+    background: url(../images/car.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+    width: 420px;
+    height: 350px;
+    border-radius: 5px;
+
+}
+.fashion3{
+    background: url(../images/car.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+    width: 420px;
+    height: 350px;
+    border-radius: 5px;
+
+}
+
+.fashion p{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: "Lora", serif;
+    font-style: normal;
+    color: #ffffff;
+}
+.fashion button{
+  background: #83808083;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-right: 200px;
+  /* margin-bottom: 20px; */
+  height: 22px;
+  width: 62px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  line-height: 11.72px;
+}
+
+.contact{
+    margin-top: 130px;
+    height: 400px;
+    background: #212529;
+    
+}
+.copy{
+    height: 80px;
+    background: #343A40;
+    
+}
+
