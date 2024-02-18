@@ -1,6 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
 nav {
   height: 80px;
-  background: gray;
+  background: #E5E5E5;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,7 +11,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: #F8F9FA;
   text-decoration: none;
 }
 nav :nth-child(1) {
@@ -25,6 +28,10 @@ nav :nth-child(1) {
 .right-nav a i{
     padding: 0px;
     margin: 0px;
+    font-size: 20px;
+}
+.bx bxl-facebook-circle{
+    width: 50px;
 }
 .adventure {
   /* width: 1440px; */
