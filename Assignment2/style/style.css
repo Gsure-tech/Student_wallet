@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,200..700;1,400..700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 nav {
   height: 80px;
@@ -56,22 +56,20 @@ nav a {
   background-position: center;
 }
 
-.adventure button{
-    background: #83808083; 
-    color: #ffffff;
-    border: none;
-    outline: none;
-    margin-left: 69px;
-    height: 22px;
-    width: 100px;
-    border-radius: 8px;
-    padding: 5px 10px;
-    gap: 10px;
-    font-weight: 700;
-    font-family: "Roboto", sans-serif;
-    line-height: 11.72px;
-    
-
+.adventure button {
+  background: #83808083;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-left: 69px;
+  height: 22px;
+  width: 100px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  gap: 10px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  line-height: 11.72px;
 }
 .adventure h1 {
   width: 530px;
@@ -84,41 +82,52 @@ nav a {
   color: #ffffff;
   margin-top: 8px;
 }
-.adventure-date{
-    width:500px;
-    display: flex;
-    justify-content: space-between;
-    /* align-content: center; */
-    margin-left: 70px;
-    
+.adventure-date {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  /* align-content: center; */
+  margin-left: 70px;
 }
-.adventure-date hr{
-        /* background-color: #e4a2a4; */
-        height: 1px;
-        width: 30px;
-        border: 0;
+.adventure-date hr {
+  /* background-color: #e4a2a4; */
+  height: 1px;
+  width: 30px;
+  border: 0;
 
-        background-color: #E5E5E5;
-        align-items: center;
-        background-color: E5E5E5;
-        margin-top: 10px;
-        
-    
+  background-color: #e5e5e5;
+  align-items: center;
+  background-color: E5E5E5;
+  margin-top: 10px;
 }
-.adventure-date:nth-child(1){
-    width:89px ;
-    line-height: 15.36px;
+.adventure-date:nth-child(1) {
+  width: 89px;
+  line-height: 15.36px;
 }
-.adventure-date:nth-child(2){
-    /* width: 420px; */
-    height: 40px;
-    line-height: 20px;
+.adventure-date:nth-child(2) {
+  /* width: 420px; */
+  height: 40px;
+  line-height: 20px;
 }
-.adventure-date p{
-   
-    color:#E5E5E5;
-    font-weight: 200;
-    font-size: 12px;
-    font-family: "Lora", serif;
-    line-height: 20px;
+.adventure-date p {
+  color: #e5e5e5;
+  font-weight: 200;
+  font-size: 12px;
+  font-family: "Lora", serif;
+  line-height: 20px;
+}
+.circle {
+  display: flex;
+  
+}
+.all-cirles {
+    height: 8px;
+    width: 8px;
+    background-color: #bbbbbb61;
+    border-radius: 50%;
+    display: inline-block;
+}
+.all-cirles:first-child{
+    margin-left: 70px;
+    background-color: #ffffff;
 }
