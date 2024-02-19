@@ -397,60 +397,56 @@ nav a {
   line-height: 11.72px;
 }
 
-.editor{
-    display: flex;
-    flex-direction: column;
-    margin-left: 70px;
-    margin-right: 70px;
-    
+.editor {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
-.editor h1{
-    margin-top: 60px;
-    margin-bottom: 30px;
+.editor h1 {
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
-.fashion{
-    display: flex;
-    justify-content: space-between;
+.fashion {
+  display: flex;
+  justify-content: space-between;
 }
 
-.fashion1{
-    background: url(../images/fashionMount.jpg) no-repeat;
+.fashion1 {
+  background: url(../images/fashionMount.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-    width: 420px;
-    height: 350px;
-    border-radius: 5px;
-
+  width: 420px;
+  height: 350px;
+  border-radius: 5px;
 }
-.fashion2{
-    background: url(../images/car.jpg) no-repeat;
+.fashion2 {
+  background: url(../images/car.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-    width: 420px;
-    height: 350px;
-    border-radius: 5px;
-
+  width: 420px;
+  height: 350px;
+  border-radius: 5px;
 }
-.fashion3{
-    background: url(../images/car.jpg) no-repeat;
+.fashion3 {
+  background: url(../images/car.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-    width: 420px;
-    height: 350px;
-    border-radius: 5px;
-
+  width: 420px;
+  height: 350px;
+  border-radius: 5px;
 }
 
-.fashion p{
-    margin-left: 10px;
-    margin-top: 20px;
-    font-size: 12px;
-    font-family: "Lora", serif;
-    font-style: normal;
-    color: #ffffff;
+.fashion p {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: "Lora", serif;
+  font-style: normal;
+  color: #ffffff;
 }
-.fashion button{
+.fashion button {
   background: #83808083;
   color: #ffffff;
   border: none;
@@ -468,15 +464,12 @@ nav a {
   line-height: 11.72px;
 }
 
-.contact{
-    margin-top: 130px;
-    height: 400px;
-    background: #212529;
-    
+.contact {
+  margin-top: 130px;
+  height: 400px;
+  background: #212529;
 }
-.copy{
-    height: 80px;
-    background: #343A40;
-    
+.copy {
+  height: 80px;
+  background: #343a40;
 }
-
