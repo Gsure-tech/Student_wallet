@@ -35,6 +35,26 @@
             </ul>
         </nav>
     </div>
+
+    <div id="menuBtn">
+        <img src="./assets/images/menu.png" id="menu">
+    </div>
+
+    <script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+    }
+    else{
+        sideNav.style.right = "-250px"
+    }
+}
+
+    </script>
 </body>
 
 </html>
