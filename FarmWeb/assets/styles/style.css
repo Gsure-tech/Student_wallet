@@ -186,7 +186,7 @@ nav ul li a {
 .features h1 {
   text-align: left;
   margin-bottom: 10px;
-  font-weight: 100;
+  font-weight: 400;
   color: #009688;
 }
 
@@ -208,4 +208,19 @@ nav ul li a {
 .feature-text p {
   padding: 0 20px;
   text-align: initial;
+}
+
+@media screen and (max-width: 770px) {
+        .title-text h1{
+            font-size: 35px;
+        }
+        .features{
+            flex-basis: 100%;
+        }
+        .features-img{
+            flex-basis: 100%;
+        }
+        .features-img img{
+            width: 100%;
+        }
 }
