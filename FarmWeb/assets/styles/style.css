@@ -30,7 +30,7 @@ body {
 
 .banner-text h1 {
   font-size: 130px;
-  font-family: "Kaushan Script", cursive;
+  /* font-family: "Kaushan Script", cursive; */
 }
 
 .banner-text p {
