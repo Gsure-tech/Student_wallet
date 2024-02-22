@@ -86,8 +86,10 @@ b = prompt('Enter the second number');
 
 if(a > b){
     alert(`${a} is greater than ${b}`)
-} else{
-    alert(`${a} is less than ${b}`)
+} else if(a === b){
+    alert(`${a} is equal to ${a}`)
+}else{
+    alert(`${a} is less than ${a}`)
 }
 
 
