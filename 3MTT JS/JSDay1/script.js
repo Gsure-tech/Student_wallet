@@ -80,9 +80,16 @@ Logical
 
 let a;
 let b;
+let c;
+let result;
 
 a = prompt('Enter the first number');
 b = prompt('Enter the second number');
+c = prompt('Enter the third number');
+
+result = (a+b+c)/3
+
+alert(result)
 
 // if(a > b){
 //     alert(`${a} is greater than ${b}`)
@@ -92,7 +99,10 @@ b = prompt('Enter the second number');
 //     alert(`${a} is less than ${a}`)
 // }
 
-(a>b) ? alert(`${a} is greater than ${b}`) : alert(`${a} is less than  to ${a}`);
+// (a>b) ? alert(`${a} is greater than ${b}`) :(a==b) ? alert(`${a} is equal to ${a}`): alert(`${a} is less than  to ${a}`);
+
+// Assignment
+// Using teneray operator include if a==b and add it to the existing code
 
 
 
