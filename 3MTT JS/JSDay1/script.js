@@ -91,7 +91,7 @@ a =parseInt(a);
 b =parseInt(b);
 c =parseInt(c);
 
-result = (a+b+c)/3
+result = (a+b+c)/3*2
 
 alert(result)
 
