@@ -95,6 +95,8 @@ result = (a+b+c)/3
 
 alert(result)
 
+alert("The video game")
+
 // if(a > b){
 //     alert(`${a} is greater than ${b}`)
 // } else if(a === b){
