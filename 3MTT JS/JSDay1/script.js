@@ -87,6 +87,10 @@ a = prompt('Enter the first number');
 b = prompt('Enter the second number');
 c = prompt('Enter the third number');
 
+a =parseInt(a);
+b =parseInt(b);
+c =parseInt(c);
+
 result = (a+b+c)/3
 
 alert(result)
