@@ -356,7 +356,31 @@ hr {
   transform: translateY(-7px);
 }
 @media screen and (max-width: 770px) {
-  .testimonial-col{
+  .testimonial-col{ 
     flex-basis: 100%;
   }
 }   
+
+/* Footer */
+
+#footer{
+  padding: 100px 0 20 ;
+  background: #efefef;
+}
+.footer-row{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left, .footer-right{
+  flex-basis: 45%;
+  padding: 10px;
+  margin-bottom: 20px;
+    
+}
+.footer-right{
+  text-align: right;
+}
