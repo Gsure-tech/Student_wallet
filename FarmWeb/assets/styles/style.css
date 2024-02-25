@@ -9,11 +9,12 @@ body {
 }
 
 #banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #055e55),
     url(../images/spices.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
+  position: relative;
 }
 .logo {
   width: 140px;
@@ -267,11 +268,11 @@ nav ul li a {
   border-radius: 7px;
 }
 .overlay {
-  width: 90%;
-  height: 97%;
+  width: 95%;
+  height: 80%;
   position: absolute;
-  top: 0;
-  left: 5%;
+  top: 10px;
+  left: 3%;
   border-radius: 7px;
   cursor: pointer;
   background: linear-gradient(rgba(0, 0, 0, 0.5), #009688);
