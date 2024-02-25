@@ -14,6 +14,6 @@ let sumResult = num1 + num2;
 let diffResult = num1 - num2;
 let prodResult = num1 * num2; 
 let divResult = num1 / num2;
-alert(sumResult);
+
 
 alert(`The sum of the two numbers is: ${sumResult}, the Difference is ${diffResult}, the Product is ${prodResult} and the Division is ${diffResult}`)
