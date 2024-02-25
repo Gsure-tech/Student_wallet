@@ -13,7 +13,7 @@
       align-items: center;
       min-height: 100vh; /* Ensure full viewport height */
       background: transparent; /* Fallback background */
-      background: url(../images/background2.jpg) no-repeat; /* Background image */
+      background: url(../images/food\ \(1\).jpg) no-repeat; /* Background image */
       background-size: cover;
       background-position: center;
   }
