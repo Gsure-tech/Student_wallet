@@ -142,3 +142,20 @@ else{
 
 // password = password.toString()
 
+//Arrays
+
+/* 
+Arrays are data structure that allows storing multiple values in a single variable
+
+Array Methods
+push(): adds on or more element to the end of the array
+pop(): remove from the end of the array
+shift(): removes from the beginning
+unshift(): Add one or more element to the beginning of the array
+concat()combines two or more array and return a new array 
+slice()
+join()
+indexOf()
+lastIndexOf()
+
+*/
