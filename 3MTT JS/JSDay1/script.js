@@ -120,5 +120,19 @@ let firstCharacter = s.charAt(0);
 
 let firstString = s.length;
 // alert(`The length of the string is ${firstString}`)
-alert(`The First character of the string is ${firstCharacter}`)
+// alert(`The First character of the string is ${firstCharacter}`)
+
+let username, password;
+
+username = prompt('Enter username');
+username = username.toLowerCase();
+if(username === 'abdul'){
+    password = prompt('Enter password')
+} else if(username === ''){
+    alert('Sorry the Username field is required')
+}
+else{
+    alert('Sorry the username is incorrect')
+}
+
 
