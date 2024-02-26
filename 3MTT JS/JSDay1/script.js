@@ -110,5 +110,8 @@ alert("The video game")
 // Assignment
 // Using teneray operator include if a==b and add it to the existing code
 
+//Using Math Functions
+result = Math.round;
 
+result = Math.floor;
 
