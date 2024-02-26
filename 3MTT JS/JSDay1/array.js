@@ -13,13 +13,15 @@ let emptyArray = [];
 let name1, name2, name3, name4;
 
 name1 = prompt('Enter name 1');
-name1 = emptyArray.push(name1);
+emptyArray.push(name1);
 
 name2 = prompt('Enter name 2');
-name2 = emptyArray.push(name2);
+emptyArray.push(name2);
 
 name3 = prompt('Enter name 3');
-name3 = emptyArray.push(name3)
+emptyArray.push(name3)
 
 name4 = prompt('Enter name 4');
-name4 = emptyArray.push(name4);
+emptyArray.push(name4);
+
+console.log(emptyArray)
