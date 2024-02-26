@@ -126,8 +126,12 @@ let username, password;
 
 username = prompt('Enter username');
 username = username.toLowerCase();
+// password = password.toLowerCase();
 if(username === 'abdul'){
     password = prompt('Enter password')
+    if(password === 'hello'){
+        alert("ACCESS GRANTED");
+    }
 } else if(username === ''){
     alert('Sorry the Username field is required')
 }
@@ -135,4 +139,6 @@ else{
     alert('Sorry the username is incorrect')
 }
 
+
+// password = password.toString()
 
