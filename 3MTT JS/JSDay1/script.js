@@ -87,13 +87,13 @@ a = prompt('Enter the first number');
 b = prompt('Enter the second number');
 c = prompt('Enter the third number');
 
-a =parseInt(a);
-b =parseInt(b);
-c =parseInt(c);
+a =Number(a);
+b =Number(b);
+c =Number(c);
 
-result = (a+b+c)/3*2
+result = (a+b+c)/3
 
-alert(result)
+alert("The Average of " + a + " "+ b +" " + c + " = " + result)
 
 alert("The video game")
 
