@@ -83,9 +83,9 @@ let b;
 let c;
 let result;
 
-a = prompt('Enter the first number');
-b = prompt('Enter the second number');
-c = prompt('Enter the third number');
+// a = prompt('Enter the first number');
+// b = prompt('Enter the second number');
+// c = prompt('Enter the third number');
 
 a =Number(a);
 b =Number(b);
@@ -93,9 +93,9 @@ c =Number(c);
 
 result = (a+b+c)/3
 
-alert("The Average of " + a + " "+ b +" " + c + " = " + result)
+// alert("The Average of " + a + " "+ b +" " + c + " = " + result)
 
-alert("The video game")
+// alert("The video game")
 
 // if(a > b){
 //     alert(`${a} is greater than ${b}`)
@@ -114,4 +114,11 @@ alert("The video game")
 result = Math.round;
 
 result = Math.floor;
+
+let s= "This is the day 2 of 3MTT fundamental of js"
+let firstCharacter = s.charAt(0);
+
+let firstString = s.length;
+// alert(`The length of the string is ${firstString}`)
+alert(`The First character of the string is ${firstCharacter}`)
 
