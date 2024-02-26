@@ -87,13 +87,13 @@ a = prompt('Enter the first number');
 b = prompt('Enter the second number');
 c = prompt('Enter the third number');
 
-a =parseInt(a);
-b =parseInt(b);
-c =parseInt(c);
+a =Number(a);
+b =Number(b);
+c =Number(c);
 
-result = (a+b+c)/3*2
+result = (a+b+c)/3
 
-alert(result)
+alert("The Average of " + a + " "+ b +" " + c + " = " + result)
 
 alert("The video game")
 
@@ -110,5 +110,8 @@ alert("The video game")
 // Assignment
 // Using teneray operator include if a==b and add it to the existing code
 
+//Using Math Functions
+result = Math.round;
 
+result = Math.floor;
 
