@@ -24,4 +24,8 @@ emptyArray.push(name3)
 name4 = prompt('Enter name 4');
 emptyArray.push(name4);
 
-console.log(emptyArray)
+console.log(emptyArray);
+
+let numbers =[1,2,4,4,5,6,7];
+let result = numbers.reduce((accumulator, currentValue) => accumulator + currentValue);
+alert("The sum of the array is "+result)
