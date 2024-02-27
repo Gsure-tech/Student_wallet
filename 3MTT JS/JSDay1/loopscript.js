@@ -42,3 +42,15 @@ while(a<=10){
 
 console.log(evenNumbers);
 console.log(oddNumbers);
+
+
+// Using Do while loop
+ do{
+    if(a % 2 !=0){
+        oddNumbers.push(a);
+        
+    } else{
+        evenNumbers.unshift(a);
+    }
+    a++;
+ } while(a<=10);
