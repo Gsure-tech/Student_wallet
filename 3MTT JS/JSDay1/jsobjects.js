@@ -14,3 +14,7 @@ visitor.age = prompt('age');
 visitor.city = prompt ('city')
 
 console.log(visitor)
+
+let deletcity = delete visitor.city;
+console.log(visitor)
+console.log(deletcity)
