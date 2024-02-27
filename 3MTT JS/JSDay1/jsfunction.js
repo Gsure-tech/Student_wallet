@@ -27,8 +27,17 @@ let action = (a,b) => {
 
 let a,b;
 
-a = Number(prompt('Enter the value of a'));
-b = Number(prompt('Enter the value of b'));
+// a = Number(prompt('Enter the value of a'));
+// b = Number(prompt('Enter the value of b'));
 
-action(a,b)
+// action(a,b)
 
+//function to perform subtraction
+
+let subtraction = (c,d) =>(c-d);
+
+let c,d;
+c = Number(prompt('Enter the value of c'));
+d = Number(prompt('Enter the value of d'));
+
+alert(subtraction(c,d))
