@@ -33,5 +33,9 @@ let result = numbers.reduce((accumulator, currentValue) => accumulator + current
 let number2 =[1,2,3,4,5,7];
 let output = number2.map(num => num * num);
 
-alert(output);
+// alert(output);
+
+let output2 = output.reduce((add, currentState) => add + currentState);
+
 console.log(output);
+console.log(output2);
