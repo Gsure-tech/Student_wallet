@@ -18,3 +18,6 @@ console.log(visitor)
 let deletcity = delete visitor.city;
 console.log(visitor)
 console.log(deletcity)
+
+let addnumber = (a,b) =>(a +b);
+alert(addnumber(5,6));
