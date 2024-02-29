@@ -22,7 +22,7 @@
         }
 
         button{
-            width: 80px;
+            width: 100px;
             height: 20px;
             border-radius: 10px;
             background: yellowgreen;
@@ -30,10 +30,15 @@
             transition: all 0.3s ease-in;
             color: white;
             margin-bottom: 20px;
+            font-size: 14px;
         }
 
         button :hover{
             opacity: 0.5;
+        }
+
+        #counterResult{
+            margin:30px 0;
         }
     </style>
 </head>
@@ -45,7 +50,10 @@
     <input type="text" id="display" placeholder="0">
  </div>
 
- <button  id="clickme">Click me</button>
+ <button  id="clickme">Show Result</button>
+ <button  id="clickme2">Clear Result</button>
+
+ <div id="counterResult"></div>
 
 
  <div>
