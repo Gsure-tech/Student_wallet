@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+
+    <style>
+        .display{
+            width: 200px;
+            height: 50px;
+            background: gray;
+            color: black;
+            border: 2px solid greenyellow;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        #display{
+            width: 200px;
+            height: 50px;
+        }
+
+        button{
+            width: 80px;
+            height: 20px;
+            border-radius: 10px;
+            background: yellowgreen;
+            border: 0;
+            transition: all 0.3s ease-in;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        button :hover{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    
+
+ <div class="display">
+    <input type="text" id="display" placeholder="0">
+ </div>
+
+ <button  id="clickme">Click me</button>
+
+
+ <div>
+    <input type="button" onclick="increment()" value="Increment">
+    <input type="button" onclick="decrement()" value="Decrement">
+    <input type="button" onclick="reset()" value="Reset">
+ </div>
+
+ <script src="main.js"></script>
+</body>
+</html>
