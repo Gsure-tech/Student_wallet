@@ -63,14 +63,14 @@ function accept(){
 // myLabel.textContent = `${yourUsername} you are not qualified to cast your vote`;
 
 
-    if(yourAge >= 18 ){
+    if(yourAge <= 18 ){
 
         myLabel.textContent = `${yourUsername} you are qualified to cast your vote`;
 
     } else{
 
         myLabel.textContent = `${yourUsername} you are not qualified to cast your vote`; 
-        
+   
     }
 }
 
