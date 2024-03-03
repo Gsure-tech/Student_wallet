@@ -46,14 +46,15 @@ function reset(){
 
 
 // Accept Input from user via html
-const age = document.getElementsByClassName('age');
+const age = document.getElementsByClassName('age')[0];
 const myLabel = document.getElementById('myLabel');
 const username = document.getElementById('username');
 const mySubmit = document.getElementById('mySubmit')
 
 mySubmit.onclick = 
 function accept(){
-    let yourAge = Number(age.value);
+    let yourAge = age.value;
+    yourAge = Number(yourAge)
     console.log(yourAge)
 
     let yourUsername = username.value;
@@ -63,7 +64,7 @@ function accept(){
 // myLabel.textContent = `${yourUsername} you are not qualified to cast your vote`;
 
 
-    if(yourAge <= 18 ){
+    if(yourAge >= 18 ){
 
         myLabel.textContent = `${yourUsername} you are qualified to cast your vote`;
 
