@@ -19,7 +19,7 @@
 }
 .dice{
     font-size: 20px;
-    color: #fff;
+    color: #000;
     margin-top: 30px;
 }
 .dice input[type='button']{
@@ -29,4 +29,10 @@
     box-shadow: 2px 1px 3px black;
     background: rgb(42, 126, 243);
     color: white;
+}
+.dice input{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px;
 }
