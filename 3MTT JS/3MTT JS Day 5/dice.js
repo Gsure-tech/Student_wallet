@@ -2,7 +2,7 @@
 
 const rollDice = () =>{
 
-    const numOfDice = document.getElementById('numOfDice').value;
+const numOfDice = document.getElementById('numOfDice').value;
 const diceResult = document.getElementById('diceResult');
 const diceImage = document.getElementById('diceImage');
 
@@ -16,6 +16,6 @@ const images =[];
         images.push(`<img src="assets/dice_${value}.png">`)
     }
 
-    diceResult.textContent = `Dice ${values.join(',')}`
+    diceResult.textContent = `Dice:  ${values.join(', ')}`;
     diceImage.innerHTML = images.join('');
 }
