@@ -19,3 +19,6 @@ const images =[];
     diceResult.textContent = `Dice:  ${values.join(', ')}`;
     diceImage.innerHTML = images.join('');
 }
+
+const rollD = document.getElementById('numOfDice');
+// rollD.addEventListener
