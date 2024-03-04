@@ -1,0 +1,32 @@
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    text-decoration: none;
+}
+
+.container{
+    background: pink;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dice{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30px;
+}
+.dice input[type='button']{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px black;
+    background: rgb(42, 126, 243);
+    color: white;
+}
