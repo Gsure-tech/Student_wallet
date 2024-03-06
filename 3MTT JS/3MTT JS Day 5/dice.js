@@ -21,4 +21,3 @@ const images =[];
 }
 
 const rollD = document.getElementById('numOfDice');
-// rollD.addEventListener
