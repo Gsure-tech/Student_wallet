@@ -35,4 +35,4 @@ const hawk = new Hawk();
 
 fish.eat();
 fish.sleep();
-fish.run();
+// fish.run();  this will not work as this method is not within the scope of the fish and not from his parent
