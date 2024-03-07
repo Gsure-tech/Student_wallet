@@ -40,6 +40,10 @@ class Fish extends Animal{
         swim(){
             console.log('it can swim')
         }
+
+        move(speed){
+            console.log(`${this.name} can move at a speed of ${speed}rmp`)
+        }
 }
 
 class Hawk extends Animal{
@@ -53,21 +57,42 @@ class Hawk extends Animal{
         }
 }
 
-const fish = new Fish();
+const fish1 = new Fish('Tillapia Fish',2,34);
+const fish2 = new Fish('Bungar Fish',3,24);
+const fish3 = new Fish('Titus Fish',4,66);
 const dog = new Dog();
 const hawk = new Hawk();
 
-fish.eat();
-fish.sleep();
-fish.swim();
+fish1.reproduce();
+fish1.eat();
+fish1.sleep();
+fish1.swim();
+fish1.move(12);
+
+fish2.reproduce();
+fish2.eat();
+fish2.sleep();
+fish2.swim();
+
+fish3.reproduce();
+fish3.eat();
+fish3.sleep();
+fish3.swim();
 // fish.run();  this will not work as this method is not within the scope of the fish and not from his parent
 
 console.log("Dog")
-dog.eat();
-dog.sleep();
-dog.run();
+const dog1 = new Dog('Bobby',2,34);
+const dog2 = new Dog('Bingo',3,24);
+const dog3 = new Dog('Bucky',4,66);
+
+dog1.eat();
+dog1.sleep();
+dog1.run();
 
 console.log("Hawk")
-hawk.eat();
-hawk.sleep();
-hawk.fly();
+const hawk1 = new Hawk('Molo',2,34);
+const hawk2 = new Hawk('Bolo',3,24);
+const hawk3 = new Hawk('Solo',4,66);
+hawk1.eat();
+hawk1.sleep();
+hawk1.fly();
