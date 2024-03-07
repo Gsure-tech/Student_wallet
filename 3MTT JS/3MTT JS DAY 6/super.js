@@ -1,16 +1,30 @@
 
 class Animal{
 
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+
     eat(){
-        console.log('It can eat')
+        console.log(`${this.name} can eat`);
     }
     sleep(){
-        console.log('it can sleep')
+        console.log(`${this.name} can sleep`)
+    }
+    reproduce(){
+        console.log(`${this.name} can reproduce`)
     }
 }
 
 
 class Dog extends Animal{
+    constructor(name, age, runSpeed){
+        super(name, age);
+        this.runSpeed = runSpeed;
+
+    }
+
     run(){
         console.log('it can run')
     }
@@ -18,12 +32,22 @@ class Dog extends Animal{
 }
 
 class Fish extends Animal{
+    constructor(name, age, swimSpeed){
+        super(name, age);
+        this.swimSpeed = swimSpeed;
+
+    }
         swim(){
             console.log('it can swim')
         }
 }
 
 class Hawk extends Animal{
+    constructor(name, age, flySpeed){
+        super(name, age);
+        this.flySpeed = flySpeed;
+
+    }
         fly(){
             console.log('It can fly')
         }
