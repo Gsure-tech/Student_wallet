@@ -9,3 +9,21 @@ const person = {
     }
   };
   
+  // Display data from the object using a getter:
+document.getElementById("demo").innerHTML = person.lang;
+
+
+const person1 = {
+    firstName: "John",
+    lastName: "Doe",
+    language: "",
+    set lang(lang) {
+      this.language = lang;
+    }
+  };
+  
+  // Set an object property using a setter:
+  person1.lang = "en";
+  
+  // Display data from the object:
+  document.getElementById("demo").innerHTML = person1.language;
