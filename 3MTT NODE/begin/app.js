@@ -57,9 +57,9 @@ app.get("/getUsers", (req, res) => {
 
 // In-memory data store
 let data = [
-  {id: 1, name: "Item 1"},
-  {id: 1, name: "Item 2"},
-  {id: 1, name: "Item 3"},
+  {id: 1, name: "John doe", age: 20, gender: "female", dob: "16/02/1999"},
+  {id: 2, name: "shibuzor chi", age: 24, gender: "male", dob: "17/02/1999"},
+  {id: 3, name: "Hassan Musa",  age: 24, gender: "male", dob: "18/02/1999"},
 ];
 
 // Routes
