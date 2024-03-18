@@ -40,6 +40,9 @@
 
 const express = require("express");
 const app = express();
+const port = 3000;
+
+app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send("Welcome Home");
@@ -50,7 +53,20 @@ app.get("/getUsers", (req, res) => {
   res.send(users);
 });
 
-const port = 3000;
+
+
+// In-memory data store
+let data = [
+  {id: 1, name: "Item 1"},
+  {id: 1, name: "Item 2"},
+  {id: 1, name: "Item 3"},
+];
+
+// Routes
+
+app.get("/api/data", (req, res) =>{
+  res.json(data);
+});
 
 app.listen(port, () => {
   console.log("Server is running on port " + port);
