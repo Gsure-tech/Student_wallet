@@ -68,6 +68,23 @@ app.get("/api/data", (req, res) =>{
   res.json(data);
 });
 
+app.get("/api/data/:id", (req, res)=>{
+  const id = parseInt(req.params.id);
+  const item = data.find((entry) => entry.id == id);
+
+  if(!item){
+      return res.status(404).json({ error : "Item not found"});
+  }
+
+  res.json(item);
+})
+
+app.post("/api/data", (req, res) =>{
+  const newItem = req.body;
+  data.push(newItem);
+  res.status(201).json(newItem);
+})
+
 app.listen(port, () => {
   console.log("Server is running on port " + port);
 });
