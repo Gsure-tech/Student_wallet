@@ -45,7 +45,7 @@ const port = 3000;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Welcome Home");
+  res.send("Welcome Home My GEEE");
 });
 
 app.get("/getUsers", (req, res) => {
@@ -56,7 +56,7 @@ app.get("/getUsers", (req, res) => {
 
 
 // In-memory data store
-let data = [
+const data = [
   {id: 1, name: "John doe", age: 20, gender: "female", dob: "16/02/1999"},
   {id: 2, name: "shibuzor chi", age: 24, gender: "male", dob: "17/02/1999"},
   {id: 3, name: "Hassan Musa",  age: 24, gender: "male", dob: "18/02/1999"},
