@@ -37,7 +37,7 @@
 // //     console.log('Server runnimg at http:/127.0.0.1:3000')
 // // })
 
-
+//
 const express = require("express");
 const app = express();
 const port = 3000;
@@ -53,6 +53,9 @@ app.get("/getUsers", (req, res) => {
   res.send(users);
 });
 
+//api/todo/1
+//api/todos
+//api/todos
 
 
 // In-memory data store
@@ -65,11 +68,11 @@ const data = [
 // Routes
 //Dynamic routes
 
-app.get("/api/data", (req, res) =>{
+app.get("/api/users", (req, res) =>{
   res.json(data);
 });
 
-app.get("/api/data/:id", (req, res)=>{
+app.get("/api/users/:id", (req, res)=>{
   const id = parseInt(req.params.id);
   const item = data.find((entry) => entry.id == id);
 
