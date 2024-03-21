@@ -83,7 +83,7 @@ app.get("/api/users/:id", (req, res)=>{
   res.json(item);
 })
 
-app.post("/api/data", (req, res) =>{
+app.post("/api/users", (req, res) =>{
   const newItem = req.body;
   data.push(newItem);
   res.status(201).json(newItem);
