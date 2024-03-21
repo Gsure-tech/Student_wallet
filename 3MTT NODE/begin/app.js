@@ -63,6 +63,7 @@ const data = [
 ];
 
 // Routes
+//Dynamic routes
 
 app.get("/api/data", (req, res) =>{
   res.json(data);
