@@ -72,6 +72,27 @@ app.get("/api/users", (req, res) =>{
   res.json(data);
 });
 
+
+//request holds all the information of the users and the response is what is returned
+app.post("/api/user", (req, res) =>{
+
+  const user = req.body;
+    console.log(user);
+    const newUser = {id:data.length + 1, ...user };
+
+    data.push(newUser);
+
+    res.status(201).json(newUser);
+  // res.send("Got your data");
+})
+
+app.post("/api/users", (req, res) =>{
+  const newItem = req.body;
+  data.push(newItem);
+  res.status(201).json(newItem);
+})
+
+
 app.get("/api/users/:id", (req, res)=>{
   const id = parseInt(req.params.id);
   const item = data.find((entry) => entry.id == id);
@@ -83,11 +104,40 @@ app.get("/api/users/:id", (req, res)=>{
   res.json(item);
 })
 
-app.post("/api/users", (req, res) =>{
-  const newItem = req.body;
-  data.push(newItem);
-  res.status(201).json(newItem);
+
+app.patch("/api/users/:id", (req, res)=>{
+  const id = parseInt(req.params.id);
+  const item = data.findIndex(i => i.id === id);
+  
+
+  if(!item){
+    return res.status(404).json({ error : "Item not found"});
+  }
+
+  data.splice(index, 1, {...item,...body})
+
+  res.json(data[item]);
 })
+
+
+
+app.delete("/api/users/:id", (req, res)=>{
+  const id = parseInt(req.params.id);
+  
+  const index = data.findIndex(i => i.id === id);
+  const item = data[index];
+
+  if(!item){
+    return res.status(404).json({ error : "Item not found"});
+  }
+  const deletedUser = data.splice(index, 1);
+
+  data.splice(index, 1, {...item,...body})
+
+  res.json(data[item]);
+})
+
+
 
 
 app.listen(port, () => {
