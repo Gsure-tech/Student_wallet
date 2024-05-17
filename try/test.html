@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <div class="container product-wrapper">
+            <div class="row no-gutters">
+                <div class="col-lg-8 product-image-carousel-container">
+                    <div class="primary-images">
+                        <div id="thumbnails" class="product-thumbnails product-carousel" role="listbox" aria-label="Product Thumbnails">
+                            <!-- Simulated loop for images -->
+                            <div class="slide photo product-thumbnails-list" role="option">
+                                <img src="https://via.placeholder.com/600x400.png?text=Product+Image+1" srcset="https://via.placeholder.com/345x230.png?text=Product+Image+1 345w, https://via.placeholder.com/1024x683.png?text=Product+Image+1 1024w" border="0"/>
+                            </div>
+                            <div class="slide photo product-thumbnails-list" role="option">
+                                <img src="https://via.placeholder.com/600x400.png?text=Product+Image+2" srcset="https://via.placeholder.com/345x230.png?text=Product+Image+2 345w, https://via.placeholder.com/1024x683.png?text=Product+Image+2 1024w" border="0"/>
+                            </div>
+                            <!-- More images can be added following the same format -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4" id="product-details">
+                    <!-- Product Name and Description -->
+                    <div class="product-name">
+                        <h1>Product Name</h1>
+                    </div>
+                    <div class="product-description">
+                        <p>Detailed description of the product goes here. Explain what makes your product unique.</p>
+                    </div>
+                    
+                    <!-- Prices and Attributes -->
+                    <div class="product-pricing">
+                        <span class="price">$199.99</span>
+                        <span class="discount-price">$249.99</span>
+                    </div>
+                    <div class="product-attributes">
+                        <ul>
+                            <li>Attribute 1: Value</li>
+                            <li>Attribute 2: Value</li>
+                            <li>Attribute 3: Value</li>
+                            <!-- More attributes can be listed here -->
+                        </ul>
+                    </div>
+                    
+                    <!-- Quantity and Purchase Options -->
+                    <div class="product-purchase">
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="100" value="1">
+                        <button type="button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <script src="script.js"></script>
+</body>
+</html>

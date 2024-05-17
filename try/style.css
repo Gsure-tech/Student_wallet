@@ -1,0 +1,21 @@
+.product-image-carousel-container {
+    position: sticky;
+    top: 0;
+    height: 50vh; /* Adjust based on your image container's height */
+    overflow-y: auto; /* Allows the image container to scroll */
+    z-index: 100; /* Ensure it stays on top */
+}
+
+#product-details {
+    position: sticky;
+    top: 50vh; /* Starts after the image container */
+    height: 50vh;
+    overflow-y: auto;
+    z-index: 99; /* Below the image container */
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Prevent the default scroll */
+}
