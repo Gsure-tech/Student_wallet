@@ -1,0 +1,12 @@
+.container{
+    border: 3px solid red;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.container div{
+    width: 100%;
+    border: 3px solid teal;
+}
