@@ -11,15 +11,22 @@ body{
 .container{
     display: flex;
     height: 80vh;
-    border: 3px solid red;
     max-width: 1100px;
     margin: 100px auto 0 auto;
     background: #fff;
     font-family: "Open Sans", sans-serif;
+    box-shadow: 0.7px 1.4px 1.4px hsl(0deg, 0%, 0% /0.4);
+    border-radius: 20px;
 }
 .sidebar{
     background: #F1F1FB;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  
 }
 
 .img_wrapper{
@@ -44,4 +51,12 @@ body{
 
 i{
     font-size: 2rem;
+}
+
+.active{
+    font-weight: 700;
+    border-left: 4px solid red;
+    border-radius: 1px;
+    padding-left: 10px;
+    transform: translateX(-16px);
 }
