@@ -1,0 +1,82 @@
+li{
+    color: aquamarine;
+}
+
+
+body{
+    /* background-color: green; */
+}
+
+p{
+    color: black;
+    font-size: 20px;
+}
+
+/* to target a cloass in css use . */
+
+.lower{
+    /* background-color:  blue; */
+    width: 300px;
+    border: 1px solid blue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    word-spacing: 20;
+    font-weight: 700;
+
+}
+
+.position{
+    background-color: green;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 40px;
+    margin-top : 50px;
+}
+
+/* to target an Id, we use # */
+
+#buttom{
+    margin-top: 50px;
+    color: blue;
+}
+
+/* 1rem = 16px */
+button{
+    background: red;
+    /* padding: 1rem 2rem; */
+    padding: 16px 32px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border: 0;
+}
+
+.lower-section{
+    border: 1px solid red;
+    /* margin-left: 20px; */
+}
+
+.lower-section-item{
+    margin-left: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+    width: 400px;
+    height: 300px;
+}
+
+.form-element{
+    margin: 10px;
+}
+
+.form-element input{
+    padding: 20px;
+}
