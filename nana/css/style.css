@@ -74,6 +74,7 @@ i{
 .main_content{
     flex: 2;
     padding: 2rem;
+    background-color: #fff;
 }
 
 .main_content h4{
@@ -154,4 +155,26 @@ margin-top: 40px;
     color: #fff;
     border: 1px solid #fff;
     font-weight: 700;
+}
+
+@media screen and (max-width: 992px){
+    .box{
+        display: none;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    .content_header{
+        justify-content: space-between;
+        gap: 1.5rem ;
+    }
+
+    .footer p{
+        margin: 1.2rem;
+    }
+
+    .footer{
+        /* display: block; */
+    }
 }
