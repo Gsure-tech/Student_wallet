@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-form {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab button {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.tab button.active {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    border-radius: 20px;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form .forgot-password {
+    display: block;
+    text-align: right;
+    margin: 10px 0;
+    color: #00aaff;
+    text-decoration: none;
+}
+
+form button {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #00f2fe, #4facfe);
+}
+
+form p {
+    margin: 20px 0 0;
+}
+
+form p a {
+    color: #00aaff;
+    text-decoration: none;
+}
