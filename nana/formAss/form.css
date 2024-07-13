@@ -4,78 +4,113 @@
     padding: 0;
     box-sizing: border-box;
 }
-.section{
-    width: 100vw;
+body{
+    font-family: "Lato", sans-serif;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.container{
-    width: 90vw;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* background: rgb(161, 197, 255); */
     background: rgb(161, 197, 255);
 }
 
-form{
-
-    width: 60%;
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    padding: 30px;
-}
-
-h1{
+.container{
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-family: "Lato", sans-serif;
+    justify-content: center; 
+}
+.logSign{
+    position: relative;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 20px;
+}
+
+.login-btn{
+    height:38px;
+    background: linear-gradient(to right, #0a2f4f, #1e38fe);
+    width: 8rem;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    transform: translateY(20px);
+}
+.sign {
+    
+    text-align: right;
+    width: 100%;
+    background-color: red;
+    padding: 10px 40px;
     font-weight: 700;
-    font-style: normal;
-    margin-bottom: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: #131212;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    /* transform: translate(-15px); */
+    z-index: 0;
+
+}
+
+.login-form{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 300px;
+    text-align: center;
+}
+
+h2{
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 
 form input{
-
+    width: 100%;
     border-radius: 10px;
-    padding: 15px 20px;
-    margin-top: 20px;
-    background: transparent;
-    border: 1px solid rgba(60, 57, 57, 0.3);
-
-}
-.forgot{
-    color:rgb(7, 79, 196);
-    margin-top: 5px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
 }
 
+
+form .forgot-password {
+    display: block;
+    text-align: left;
+    color:#1e38fe;
+    text-decoration: none;
+}
 p{
     font-weight: 400;
     font-size: 16px;
 }
-form .btn{
-    margin-top: 20px;
-    padding: 15px 20px;
+form button{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 20px 0;
     border-radius: 10px;
     color: #fff;
+    background: linear-gradient(to right, #0a2f4f, #1e38fe);
+    border: none;
+    cursor: pointer;
     font-weight: 700;
-    background: rgb(7, 79, 196);
-    border:0;
-    margin-bottom: 20px;
-}
-form :last-child{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
 }
 
-a{
-    padding-left: 2px;
+form button:hover {
+    background: linear-gradient(to right, #1e38fe,  #0a2f4f);
+}
+
+form p{
+    margin: 20px 0 0;
+}
+
+form p a{
+    color: #1e38fe;
     text-decoration: none;
 }
+a{text-decoration: none;}
