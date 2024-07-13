@@ -51,11 +51,13 @@ form input{
 
 }
 .forgot{
+    color:rgb(7, 79, 196);
     margin-top: 5px;
 }
 
 p{
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
 }
 form .btn{
     margin-top: 20px;
