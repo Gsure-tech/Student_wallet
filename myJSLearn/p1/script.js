@@ -19,4 +19,18 @@ console.log(firstName)
 
 */
 
+let myFirstJob = "teacher";
+let myCurrentJob = "coder";
 let PI = 3.1415;
+
+console.log(myCurrentJob);
+
+// Assignment Solution
+
+let country = 'Nigeria';
+let continent = 'Africa';
+let population = '7 Million';
+
+console.log(country);
+console.log(continent);
+console.log(population);
