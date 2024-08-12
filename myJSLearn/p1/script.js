@@ -1,3 +1,4 @@
+/*
 console.log (40 + 8 + 23 - 10);
 console.log('Jonas');
 
@@ -18,7 +19,7 @@ console.log(firstName)
 5. should not start with an uppercase except constants which is in all UPPERCASE
 
 */
-
+/*
 let myFirstJob = "teacher";
 let myCurrentJob = "coder";
 let PI = 3.1415;
@@ -34,3 +35,13 @@ let population = '7 Million';
 console.log(country);
 console.log(continent);
 console.log(population);
+
+*/
+
+let JavascriptIsFun = true;
+console.log(JavascriptIsFun);
+console.log(typeof JavascriptIsFun)
+console.log(typeof true)
+console.log(typeof 23)
+console.log(typeof null)
+    
